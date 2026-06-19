@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #495ca2;
+}
+
+img{
+    margin-top: 100px;
+    background-color: #ffffff;
+}
+
+.sakana1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.welcome{
+    margin-top: -98px;
+}
+
+.title{
+    color: #ffffff
+}
+
+.menu-container{
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu-bg{
+    display:block;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+
+.menu-link{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    margin: 0;
+    padding:0;
+}
+
+a{
+    margin-top: 3px;
+    background-color: #d1d1d1;
+    background-size: 10px 10px;
+    text-decoration: none;
+    border: solid 2px;
+    border-color: #d1d1d1 #555555 #555555 #d1d1d1;
+}
+
+a:link{
+    color: #020202;
+}
+
+a:visited{
+    color: #202020;
+}
+
+a:hover{
+    color: #202020;
+}
+
+a:active{
+    background-color: #d1d1d1;
+    border-color: #555555 #d1d1d1 #d1d1d1 #555555;
+    color: #000000;
+}
+
+h2{
+    position:absolute;
+    top: 25%;
+    left: 5%;
+    font-family: unifont-jp;
+}
+
+.main,hr{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    right: 3%;
+    font-size: 12px;
+    text-align: left;
+    font-family: unifont-jp;
+}
+
+h3{
+    margin-top: -10px;
+}
